@@ -4,6 +4,7 @@
   "description": "",
   "main": "script.js",
   "scripts": {
+    "start": "nodemon server2.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -16,5 +17,11 @@
   "bugs": {
     "url": "https://github.com/priscillasouza/projeto-cadastro-doacao-de-sangue/issues"
   },
-  "homepage": "https://github.com/priscillasouza/projeto-cadastro-doacao-de-sangue#readme"
+  "homepage": "https://github.com/priscillasouza/projeto-cadastro-doacao-de-sangue#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "nodemon": "^2.0.2",
+    "nunjucks": "^3.2.0",
+    "pg": "^7.18.2"
+  }
 }
